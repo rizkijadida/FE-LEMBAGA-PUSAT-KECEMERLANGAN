@@ -2,12 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+/* html {
+  scroll-behavior: smooth;
+} */
+
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
 @layer base {
   :root {
+    --grape: 114, 24, 204;
     --background: 0 0% 100%;
     --foreground: 0 0% 3.9%;
     --card: 0 0% 100%;

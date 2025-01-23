@@ -9,7 +9,7 @@ export default {
   ],
   theme: {
   	extend: {
-  		colors: {
+  		colors: {grape: "rgba(var(--grape))",
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
